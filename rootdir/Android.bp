@@ -1,0 +1,14 @@
+//
+// Copyright (C) 2025 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Ramdisk's Hw
+
+prebuilt_etc {
+    name: "init.nfc.samsung.rc",
+    src: "vendor/etc/init/init.nfc.samsung.rc",
+    sub_dir: "init",
+    vendor: true,
+}
