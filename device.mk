@@ -34,6 +34,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.a23xq.rc \
+
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
